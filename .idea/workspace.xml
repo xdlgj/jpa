@@ -7,10 +7,8 @@
     <list default="true" id="4b601b78-43cd-4c50-8112-6622d3f1d226" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-jpa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01-jpa/src/main/java/com/xdl/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ch01-jpa/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-jpa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-jpa/src/test/java/com/xdl/JpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-jpa/src/test/java/com/xdl/JpaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,25 +47,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/code/java/jpa/ch01-jpa/src/test/java/com/xdl",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.31264368",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31264368&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code\java\jpa\ch01-jpa\src\test\java\com\xdl" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JpaTest.testJpaUtil">
+    <configuration name="JpaTest.testJpaUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch01-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xdl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xdl" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.JpaTest" />
+      <option name="METHOD_NAME" value="testJpaUtil" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JpaTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch01-jpa" />
       <extension name="coverage">
@@ -86,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JpaTest.testJpaUtil" />
         <item itemvalue="JUnit.JpaTest.testSave" />
       </list>
     </recent_temporary>
@@ -98,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657706531629</updated>
-      <workItem from="1657706533215" duration="3181000" />
+      <workItem from="1657706533215" duration="3519000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,7 @@
 package com.xdl;
 
 import com.xdl.domain.Customer;
+import com.xdl.utils.JpaUtils;
 import org.junit.Test;
 
 import javax.persistence.EntityManager;
@@ -39,6 +40,22 @@ public class JpaTest {
         // 6、释放资源
         em.close();
         factory.close();
+    }
 
+    @Test
+    public void testJpaUtil() {
+        EntityManager em = JpaUtils.getEntityManager();
+        // 3、获取事物对象、开启事物
+        EntityTransaction tx = em.getTransaction();
+        tx.begin();
+        // 4、保存一个客户数据到数据库中
+        Customer customer = new Customer();
+        customer.setName("杜甫");
+        customer.setIndustry("文学");
+        em.persist(customer);
+        // 5、提交事务
+        tx.commit();
+        // 6、释放资源
+        em.close();
     }
 }
