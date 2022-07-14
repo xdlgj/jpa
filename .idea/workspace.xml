@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b601b78-43cd-4c50-8112-6622d3f1d226" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch01-jpa/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-jpa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch01-jpa/src/test/java/com/xdl/JpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-jpa/src/test/java/com/xdl/JpaTest.java" afterDir="false" />
@@ -47,27 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.31264368&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.31264368",
+    "settings.editor.selected.configurable": "Debugger_Data_Views_Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code\java\jpa\ch01-jpa\src\test\java\com\xdl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JpaTest.testJpaUtil">
-    <configuration name="JpaTest.testJpaUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.JpqlTest.testWhere">
+    <configuration name="JpqlTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch01-jpa" />
       <extension name="coverage">
         <pattern>
@@ -76,14 +74,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xdl" />
-      <option name="MAIN_CLASS_NAME" value="com.xdl.JpaTest" />
-      <option name="METHOD_NAME" value="testJpaUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.JpqlTest" />
+      <option name="METHOD_NAME" value="testCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpaTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpqlTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch01-jpa" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +90,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xdl" />
-      <option name="MAIN_CLASS_NAME" value="com.xdl.JpaTest" />
-      <option name="METHOD_NAME" value="testSave" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.JpqlTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlTest.testOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch01-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xdl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xdl" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.JpqlTest" />
+      <option name="METHOD_NAME" value="testOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlTest.testPaged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch01-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xdl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xdl" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.JpqlTest" />
+      <option name="METHOD_NAME" value="testPaged" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlTest.testWhere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch01-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xdl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xdl" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.JpqlTest" />
+      <option name="METHOD_NAME" value="testWhere" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,8 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JpaTest.testJpaUtil" />
-        <item itemvalue="JUnit.JpaTest.testSave" />
+        <item itemvalue="JUnit.JpqlTest.testWhere" />
+        <item itemvalue="JUnit.JpqlTest.testPaged" />
+        <item itemvalue="JUnit.JpqlTest.testCount" />
+        <item itemvalue="JUnit.JpqlTest.testOrder" />
+        <item itemvalue="JUnit.JpqlTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
