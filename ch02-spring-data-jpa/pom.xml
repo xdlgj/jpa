@@ -2,146 +2,109 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jpa</artifactId>
+        <groupId>com.xdl</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.xdl</groupId>
-    <artifactId>jpa</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>ch01-jpa</module>
-        <module>ch02-spring-data-jpa</module>
-    </modules>
+    <artifactId>ch02-spring-data-jpa</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncodeing>UTF-8</project.build.sourceEncodeing>
-        <project.hibernate.version>5.0.7.Final</project.hibernate.version>
-        <project.mysql.version>5.1.6</project.mysql.version>
-        <project.c3p0.version>0.9.1.2</project.c3p0.version>
-        <project.log4j.version>1.2.17</project.log4j.version>
-        <project.junit.version>4.12</project.junit.version>
-        <project.lombok.version>1.18.18</project.lombok.version>
-        <spring.version>5.0.2.RELEASE</spring.version>
-        <aspectj.version>1.6.8</aspectj.version>
-        <hibernate.validator.verion>5.2.1.Final</hibernate.validator.verion>
-        <slf4j.version>1.6.6</slf4j.version>
-        <springDataJpa.version>1.9.0.RELEASE</springDataJpa.version>
-        <el.version>2.2.4</el.version>
     </properties>
-    <dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>${project.junit.version}</version>
             <scope>test</scope>
         </dependency>
         <!-- hibernate对jpa的支持包-->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
-            <version>${project.hibernate.version}</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>${hibernate.validator.verion}</version>
         </dependency>
         <!-- c3p0连接池 -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-c3p0</artifactId>
-            <version>${project.hibernate.version}</version>
         </dependency>
         <!-- log日志 -->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>${project.log4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
-            <version>${slf4j.version}</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>${project.mysql.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>${project.lombok.version}</version>
             <scope>provided</scope>
         </dependency>
         <!-- spring-aop-->
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
-            <version>${aspectj.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <!--spring IOC-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-support</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <!-- spring orm框架的支持包-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <!-- spring data jpa 坐标-->
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
-            <version>${springDataJpa.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>${spring.version}</version>
         </dependency>
         <!-- 使用spring data jpa 必须引入-->
         <dependency>
             <groupId>javax.el</groupId>
             <artifactId>javax.el-api</artifactId>
-            <version>${el.version}</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.web</groupId>
             <artifactId>javax.el</artifactId>
-            <version>${el.version}</version>
         </dependency>
     </dependencies>
-    </dependencyManagement>
 </project>
