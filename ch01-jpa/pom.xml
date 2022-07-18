@@ -29,8 +29,8 @@
         </dependency>
         <!-- c3p0连接池 -->
         <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-c3p0</artifactId>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
         </dependency>
         <!-- log日志 -->
         <dependency>

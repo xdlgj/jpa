@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b601b78-43cd-4c50-8112-6622d3f1d226" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/ch02-spring-data-jpa/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch01-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-spring-data-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch02-spring-data-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-spring-data-jpa/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch02-spring-data-jpa/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="beans-xml" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,27 +50,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.31264368",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.31264368&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code\java\jpa\ch01-jpa\src\test\java\com\xdl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JpqlTest.testWhere">
-    <configuration name="JpqlTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch01-jpa" />
+  <component name="RunManager" selected="JUnit.CustomerDaoTest.testSave">
+    <configuration name="CustomerDaoTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch02-spring-data-jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xdl.*" />
@@ -75,15 +78,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xdl" />
-      <option name="MAIN_CLASS_NAME" value="com.xdl.JpqlTest" />
-      <option name="METHOD_NAME" value="testCount" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.CustomerDaoTest" />
+      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpqlTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch01-jpa" />
+    <configuration name="CustomerDaoTest.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch02-spring-data-jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xdl.*" />
@@ -91,15 +94,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xdl" />
-      <option name="MAIN_CLASS_NAME" value="com.xdl.JpqlTest" />
-      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.CustomerDaoTest" />
+      <option name="METHOD_NAME" value="testFindOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpqlTest.testOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch01-jpa" />
+    <configuration name="CustomerDaoTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch02-spring-data-jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xdl.*" />
@@ -107,15 +110,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xdl" />
-      <option name="MAIN_CLASS_NAME" value="com.xdl.JpqlTest" />
-      <option name="METHOD_NAME" value="testOrder" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.CustomerDaoTest" />
+      <option name="METHOD_NAME" value="testSave" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpqlTest.testPaged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch01-jpa" />
+    <configuration name="CustomerDaoTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch02-spring-data-jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xdl.*" />
@@ -123,8 +126,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xdl" />
-      <option name="MAIN_CLASS_NAME" value="com.xdl.JpqlTest" />
-      <option name="METHOD_NAME" value="testPaged" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.CustomerDaoTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerDaoTest.testSave" />
+        <item itemvalue="JUnit.CustomerDaoTest.testDelete" />
+        <item itemvalue="JUnit.CustomerDaoTest.testFindOne" />
+        <item itemvalue="JUnit.CustomerDaoTest.testUpdate" />
         <item itemvalue="JUnit.JpqlTest.testWhere" />
-        <item itemvalue="JUnit.JpqlTest.testPaged" />
-        <item itemvalue="JUnit.JpqlTest.testCount" />
-        <item itemvalue="JUnit.JpqlTest.testOrder" />
-        <item itemvalue="JUnit.JpqlTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +184,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

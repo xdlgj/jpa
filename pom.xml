@@ -51,9 +51,9 @@
         </dependency>
         <!-- c3p0连接池 -->
         <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-c3p0</artifactId>
-            <version>${project.hibernate.version}</version>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>${project.c3p0.version}</version>
         </dependency>
         <!-- log日志 -->
         <dependency>
