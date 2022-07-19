@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b601b78-43cd-4c50-8112-6622d3f1d226" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch01-jpa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02-spring-data-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch02-spring-data-jpa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02-spring-data-jpa/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch02-spring-data-jpa/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch02-spring-data-jpa/src/test/java/com/xdl/CustomerDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch02-spring-data-jpa/src/test/java/com/xdl/CustomerDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.31264368&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -68,8 +65,8 @@
       <recent name="E:\code\java\jpa\ch01-jpa\src\test\java\com\xdl" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerDaoTest.testSave">
-    <configuration name="CustomerDaoTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerDaoTest.testExists">
+    <configuration name="CustomerDaoTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch02-spring-data-jpa" />
       <extension name="coverage">
         <pattern>
@@ -79,7 +76,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.xdl" />
       <option name="MAIN_CLASS_NAME" value="com.xdl.CustomerDaoTest" />
-      <option name="METHOD_NAME" value="testDelete" />
+      <option name="METHOD_NAME" value="testCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerDaoTest.testExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch02-spring-data-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xdl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xdl" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.CustomerDaoTest" />
+      <option name="METHOD_NAME" value="testExists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerDaoTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch02-spring-data-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xdl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xdl" />
+      <option name="MAIN_CLASS_NAME" value="com.xdl.CustomerDaoTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,45 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerDaoTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch02-spring-data-jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xdl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xdl" />
-      <option name="MAIN_CLASS_NAME" value="com.xdl.CustomerDaoTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpqlTest.testWhere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch01-jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xdl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xdl" />
-      <option name="MAIN_CLASS_NAME" value="com.xdl.JpqlTest" />
-      <option name="METHOD_NAME" value="testWhere" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerDaoTest.testSave" />
-        <item itemvalue="JUnit.CustomerDaoTest.testDelete" />
+        <item itemvalue="JUnit.CustomerDaoTest.testExists" />
+        <item itemvalue="JUnit.CustomerDaoTest.testCount" />
         <item itemvalue="JUnit.CustomerDaoTest.testFindOne" />
-        <item itemvalue="JUnit.CustomerDaoTest.testUpdate" />
-        <item itemvalue="JUnit.JpqlTest.testWhere" />
+        <item itemvalue="JUnit.CustomerDaoTest.testSave" />
+        <item itemvalue="JUnit.CustomerDaoTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -188,10 +185,21 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
+        <breakpoint type="java-exception">
           <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/develop/apache-maven-3.8.6/repository/org/springframework/spring-aop/5.0.2.RELEASE/spring-aop-5.0.2.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class</url>
+          <line>84</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://D:/develop/java/jdk1.8.0_301/src.zip!/java/lang/reflect/Proxy.java</url>
+          <line>245</line>
+          <properties field="h" class="java.lang.reflect.Proxy" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
