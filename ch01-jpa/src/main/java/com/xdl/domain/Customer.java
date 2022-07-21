@@ -28,14 +28,16 @@ public class Customer {
      *      GenerationType.AUTO: 由程序自动帮助我们选择上面三种的主键生成策略
      * @Column:配置属性和字段的映射关系
      *      name：数据库中字段名称
+     *      columnDefinition: 设置数据表字段的数据类型, 不同的数据库可能存在冲突，基本上不要使用，优先级高于length
+     *      length: 数据长度
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "cust_id")
     private Long id; // 客户主键
-    @Column(name = "cust_name")
+    @Column(name = "cust_name", columnDefinition = "varchar(50)", length = 30)
     private String name; // 客户名称
-    @Column(name = "cust_source")
+    @Column(name = "cust_source", length = 30)
     private String source; // 客户来源
     @Column(name = "cust_industry")
     private String industry; // 客户行业

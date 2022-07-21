@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -76,5 +77,19 @@ public class CustomerDaoTest {
     public void testExists() {
         boolean exists = customerDao.exists(4l);
         System.out.println(exists);
+    }
+    /**
+     * 根据ID从数据库中查询
+     * @Transactional: 保证getOne正常运行
+     * findOne: 立即加载
+     *      em.find()
+     * getOne: 延迟加载，返回的是一个客户动态代理对象，什么时候用，什么时候查询
+     *      em.getReference()
+     */
+    @Test
+    @Transactional // org.hibernate.LazyInitializationException: could not initialize proxy - no Session
+    public void testGetOne() {
+        Customer customer = customerDao.getOne(1l);
+        System.out.println(customer);
     }
 }
