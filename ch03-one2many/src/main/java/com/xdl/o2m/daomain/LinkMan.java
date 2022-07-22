@@ -32,7 +32,7 @@ public class LinkMan {
      *              referencedColumnName：参照的主表的主键字段名称
      * 配置外键的过程，配置到了多的一方，就会在多的一方维护外键
      */
-    @ManyToOne(targetEntity = Customer.class)
+    @ManyToOne(targetEntity = Customer.class, fetch = FetchType.LAZY)
     @JoinColumn(name = "cid", referencedColumnName = "id")
     private Customer customer;
 

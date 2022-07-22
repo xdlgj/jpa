@@ -51,7 +51,11 @@ public class Customer {
      *  CascadeType.MERGE       ： 更新
      *  CascadeType.PERSIST     ： 保存
      *  CascadeType.REMOVE      ： 删除
+     * fetch: 配置关联对象的加载方式
+     *      FetchType.LAZY： 延迟加载,默认是延迟加载
+     *      FetchType.EAGER: 立即加载， 会使用join连接查询，不推荐使用
      */
+    //@OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
     private Set<LinkMan> linkMen = new HashSet<>();
 }

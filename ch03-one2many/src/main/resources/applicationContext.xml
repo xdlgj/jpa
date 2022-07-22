@@ -22,7 +22,7 @@
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="dataSource" ref="dataSource" />
         <!-- 配置扫描的包（实体类所在包）-->
-        <property name="packagesToScan" value="com.xdl.o2m.daomain" />
+        <property name="packagesToScan" value="com.xdl" />
         <!--jpa的实现厂家-->
         <property name="persistenceProvider">
             <bean class="org.hibernate.jpa.HibernatePersistenceProvider" />
@@ -65,7 +65,7 @@
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
     </bean>
     <!--整合spring data jpa-->
-    <jpa:repositories base-package="com.xdl.o2m.dao" transaction-manager-ref="transactionManager"
+    <jpa:repositories base-package="com.xdl" transaction-manager-ref="transactionManager"
         entity-manager-factory-ref="entityManagerFactory"
     />
     <!--配置事务管理器-->

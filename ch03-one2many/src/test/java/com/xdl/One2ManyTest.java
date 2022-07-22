@@ -27,7 +27,7 @@ public class One2ManyTest {
     @Test
     @Transactional
     @Rollback(value = false) // 设置不自动回滚
-    public void TestSave() {
+    public void testSave() {
         Customer customer = new Customer();
         LinkMan linkMan = new LinkMan();
         customer.setName("百度");
@@ -43,7 +43,7 @@ public class One2ManyTest {
     @Test
     @Transactional
     @Rollback(value = false) // 设置不自动回滚
-    public void TestSave2() {
+    public void testSave2() {
         Customer customer = new Customer();
         LinkMan linkMan = new LinkMan();
         customer.setName("百度");
@@ -66,7 +66,7 @@ public class One2ManyTest {
     @Test
     @Transactional
     @Rollback(value = false) // 设置不自动回滚
-    public void TestSave3() {
+    public void testSave3() {
         Customer customer = new Customer();
         LinkMan linkMan = new LinkMan();
         customer.setName("百度");
@@ -85,7 +85,7 @@ public class One2ManyTest {
     @Test
     @Transactional
     @Rollback(value = false) // 设置不自动回滚
-    public void TestCascadeAdd() {
+    public void testCascadeAdd() {
         Customer customer = new Customer();
         LinkMan linkMan = new LinkMan();
         customer.setName("百度1");
@@ -101,7 +101,7 @@ public class One2ManyTest {
     @Test
     @Transactional
     @Rollback(value = false)
-    public void TestCascadeRemove() {
+    public void testCascadeRemove() {
         Customer customer = customerDao.findOne(1l);
         customerDao.delete(customer);
     }
